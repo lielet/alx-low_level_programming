@@ -1,18 +1,18 @@
 #include <stdio.h>
-
 /**
- * main  
+ * main - entry point
  *
  * Description: print the lowercase alphabet
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
-char c;
+	int c;
 
-for (c = 'a'; c <= 'z'; c++)
-putchar(c);
+	for (c = 0; c < 26; ++c)
+		putchar('a' + c);
 
-putchar('\n')
-return (0);
+	putchar('\n');
+
+	return (0);
 }
