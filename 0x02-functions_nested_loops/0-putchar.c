@@ -1,7 +1,8 @@
-#include "main.h"
+#include <main.h>
+
 /**
- * main-main block
- * Description:print -putchar in a new line
+ *main - Entry point
+ *Description:print -putchar in a new line
  * Return:this program returns zero
  */
 int main(void)
@@ -15,5 +16,6 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
 return (0);
-}
+} 
