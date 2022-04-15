@@ -1,21 +1,17 @@
 #include <main.h>
 
 /**
- *main - Entry point
- *Description:print -putchar in a new line
- * Return:this program returns zero
+ * main - Entry point
+ * Description: tests function that prints if integer is positive or negative
+ * Return: 0
  */
+
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+	int i;
 
-return (0);
-} 
+	i = 0
+		positive_or_negative(i);
+
+	return (0);
+}
