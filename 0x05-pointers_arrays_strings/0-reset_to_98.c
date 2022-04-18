@@ -1,5 +1,5 @@
 /**
- * reset_to_98 - takes a pointer to an int parameter and updates the value it   points 98
+ * reset_to_98 - take pointer to an intparameter and update the value it   points 98
  * @n: int parameter
  *
  * Return: nothing
