@@ -10,6 +10,6 @@ int main(void)
 	char *str;
 
 	str = "Holberton!";
-	_puts(str);
+	puts(str);
 	return (0);
 }
