@@ -1,11 +1,18 @@
+#include "main.h"
+
 /**
- * _putchar - write the character c to stdout
- * @c: the character to print
- *
- * Return: on success 1
- * On error, -1 is returned and error is there returned
+ * _puts - print a string
+ * @str: pointer char
+ * Return: void
  */
-int _putchar(char c)
+void _puts(char *str)
 {
-	return (write(1, &c, 1));
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
